@@ -1,0 +1,17 @@
+#grid {
+    --opacity: 1;
+    margin-bottom: 35vh;
+}
+
+#arrow,
+.js,
+aside>div:nth-last-child(-n+2),
+aside .meta>div:not(.lang) {
+    display: none;
+}
+
+@media (width < 1300px) {
+    #grid>aside>div {
+        display: block;
+    }
+}
